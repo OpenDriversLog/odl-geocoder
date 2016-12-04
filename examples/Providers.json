@@ -1,0 +1,45 @@
+[
+  {
+    "Name":"Klaus@CompuCloud",
+    "Type":2,
+    "Uri":"http://IP:6091",
+    "IntervalSizeInDays":1,
+    "TimeBetweenRequests":250000000,
+    "Disabled":false
+  },
+  {
+    "Name":"geocode.farm",
+    "Type":1,
+    "Uri":"https://www.geocode.farm/v3/json",
+    "IntervalSizeInDays":1,
+    "TimeBetweenRequests":250000000,
+    "MaxRequestsPerUserAndDay": 250,
+    "Disabled":false
+  },
+  {
+    "Name":"TomTom",
+    "Type":3,
+    "Uri":"https://api.tomtom.com/search/2",
+    "Key1":"YOURKEY",
+    "IntervalSizeInDays":1,
+    "TimeBetweenRequests":200000000,
+    "MaxRequestsPerUserAndDay": 900,
+    "MaxRequestsPerInterval":   900,
+    "Disabled":false,
+    "Priority":5,
+    "ChainingForbidden":true
+  },
+  {
+    "Name":"OpenCage",
+    "Type":4,
+    "Uri":"https://api.opencagedata.com/geocode/v1/json?min_confidence=10&no_annotations=1",
+    "Key1":"YOURKEY",
+    "IntervalSizeInDays":1,
+    "TimeBetweenRequests":100000000,
+    "MaxRequestsPerUserAndDay": 2500,
+    "MaxRequestsPerInterval":   2500,
+    "Disabled":false,
+    "Priority":7,
+    "ChainingForbidden":true
+  }
+]

@@ -1,0 +1,11 @@
+[
+  {
+    "Name":"geocode.farm",
+    "Type":1,
+    "Uri":"https://www.geocode.farm/v3/json",
+    "IntervalSizeInDays":1,
+    "TimeBetweenRequests":250000000,
+    "MaxRequestsPerUserAndDay": 250,
+    "Disabled":false
+  }
+]
